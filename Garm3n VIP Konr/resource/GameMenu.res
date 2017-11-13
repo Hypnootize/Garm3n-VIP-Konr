@@ -1,54 +1,17 @@
 "GameMenu" 
 {
-	"QuickplayButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
 	"CreateServerButton"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
 	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_practice"
-		"OnlyInGame" "1"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" "#GameUI_GameMenu_ReplayDemos"
@@ -185,16 +148,6 @@
 	{
 		"label" "#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
-		"subimage" "glyph_practice"
-	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
 		"subimage" "glyph_practice"
 	}
 }
