@@ -198,8 +198,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"85"
-			"ypos"			"30"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"165"
 			"zpos"			"100"
 			"tall"			"20"
@@ -225,9 +225,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"85"
-			"ypos"			"47"
-			"wide"			"f0"
+			"xpos"			"0"
+			"ypos"			"17"
+			"wide"			"165"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -251,9 +251,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"-25"
-			"wide"			"f70"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"165"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
