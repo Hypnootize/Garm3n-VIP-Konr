@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,14 +200,13 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
+			"xpos"			"65"
 			"ypos"			"0"
 			"wide"			"165"
 			"zpos"			"100"
@@ -214,18 +222,14 @@
 			if_mini
 			{
 				"visible"	"0"
-				"xpos"		"65"
-				"ypos"		"5"
-				"font"		"HudFontSmallishBold"
-				"fgcolor_override"	"TanLight"
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
 			"ypos"			"17"
 			"wide"			"165"
 			"zpos"			"100"
@@ -235,15 +239,63 @@
 			"font"			"Medium14"
 			"fgcolor_override"	"Garm3nMenu"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"	"195"
 				"font"	"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
+			}
+
+			"fonts"
+			{
+				"0"		"Medium14"
+				"1"		"Medium14"
+				"2"		"Medium14"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"33"
+			"wide"			"165"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Medium14"
+			"fgcolor_override"	"Garm3nMenu"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+			}
+
+			"fonts"
+			{
+				"0"		"Medium14"
+				"1"		"Medium14"
+				"2"		"Medium14"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"Garm3nMenu"
 			}
 		}
 
@@ -251,9 +303,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"64"
 			"ypos"			"0"
-			"wide"			"165"
+			"wide"			"150"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
