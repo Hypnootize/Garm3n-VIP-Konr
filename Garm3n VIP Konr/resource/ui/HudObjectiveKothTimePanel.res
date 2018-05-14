@@ -28,10 +28,10 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"NumbersMedium15"
-			"fgcolor"			"Garm3nWhite"
+			"fgcolor"		"Garm3nWhite"
 			"xpos"			"c-61"
 			"ypos"			"r27"
 			"zpos"			"2"
@@ -39,12 +39,14 @@
 			"tall"	 		"23"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-			
+				"xpos"		"c-42"
+				"ypos"		"4"
+				"font"		"book12"
 			}
 		}
 	}
@@ -68,10 +70,10 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"NumbersMedium15"
-			"fgcolor"			"Garm3nWhite"
+			"fgcolor"		"Garm3nWhite"
 			"xpos"			"c15"
 			"ypos"			"r27"
 			"zpos"			"2"
@@ -79,12 +81,14 @@
 			"tall"	 		"23"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-			
+				"xpos"		"c-2"
+				"ypos"		"4"
+				"font"		"book12"
 			}
 		}	
 	}

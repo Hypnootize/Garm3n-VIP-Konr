@@ -21,8 +21,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 
 	}
@@ -46,8 +45,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -71,8 +69,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -81,8 +78,6 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"38"	
 		"ypos"			"30"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -94,8 +89,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -119,8 +113,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -129,8 +122,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -141,8 +132,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -166,8 +156,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -176,8 +165,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -188,8 +175,7 @@
 
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}		
 	}	
 	"SetupLabel"
@@ -213,8 +199,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -223,8 +208,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -235,8 +218,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -254,6 +236,14 @@
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		if_match
+		{
+			"xpos"		"c-150"
+			"ypos"		"16"
+			"font"		"Book12"
+			"textAlignment"	"center"
+		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
@@ -268,5 +258,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}	
 }
